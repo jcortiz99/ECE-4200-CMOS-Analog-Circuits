@@ -1,0 +1,46 @@
+* source ECE4200PROJECT2
+V_V1         VIN 0 DC 0  
+V_V2         VDD 0 DC 5  
+I_I1         0 0 DC 59u  
+M_M4         VDD 0 0 VDD AMI06P  
++ L=.6u  
++ W=15.6u  
++ AD={15.6u*1.2u}  
++ AS={15.6u*1.2u}  
++ PD={2*15.6u+2.4u}  
++ PS={2*15.6u+2.4u}     
+M_M5         VDD 0 VOUT VDD AMI06P  
++ L=.6u  
++ W=15.6u  
++ AD={15.6u*1.2u}  
++ AS={15.6u*1.2u}  
++ PD={2*15.6u+2.4u}  
++ PS={2*15.6u+2.4u}     
+M_M9         VOUT VIN 0 0 AMI06N  
++ L=.6u  
++ W=9.9u  
++ AD={9.9u*1.2u}  
++ AS={9.9u*1.2u}  
++ PD={2*9.9u+2.4u}  
++ PS={2*9.9u+2.4u}     
+M_M10         VDD 0 VOUT VDD AMI06P  
++ L=.6u  
++ W=15.6u  
++ AD={15.6u*1.2u}  
++ AS={15.6u*1.2u}  
++ PD={2*15.6u+2.4u}  
++ PS={2*15.6u+2.4u}     
+M_M11         VDD 0 VOUT VDD AMI06P  
++ L=.6u  
++ W=15.6u  
++ AD={15.6u*1.2u}  
++ AS={15.6u*1.2u}  
++ PD={2*15.6u+2.4u}  
++ PS={2*15.6u+2.4u}     
+M_M12         VDD 0 VOUT VDD AMI06P  
++ L=.6u  
++ W=15.6u  
++ AD={15.6u*1.2u}  
++ AS={15.6u*1.2u}  
++ PD={2*15.6u+2.4u}  
++ PS={2*15.6u+2.4u}     
